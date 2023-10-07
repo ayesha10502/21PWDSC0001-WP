@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Portfolio Website</title>
+        <style>
+            body{
+                background-image: url(bg.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+            h1{
+                text-align: center;
+            }
+            hr{
+                background-color: black;
+                height: 3px ;
+                border: none;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <header>
+            <h1>My Portfolio</h1> <hr>
+            <h2>Welcome to My Portfolio Website</h2>
+
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Resume">Resume</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <h2 id="Home">Home</h2>
+            <p>Hey! I'm Ayesha Jamil.</p>
+            <p>Welcome to my Portfolio website. Explore my journey, my hard work and get to know more about me.</p>
+            <p>I'm excited to share my experience and skills with you. </p>
+
+            <nav>
+                <a href="#About">About Me</a>
+                <a href="#Resume">Resume</a>
+                <a href="#Portfolio">Portfolio</a>
+                <a href="#Contact">Contact</a>   
+            </nav>
+        </section>
+
+        <section>
+            <h2  id="About">About Me</h2>
+            <p>Hello, I'm Ayesha Jamil. A passionate and driven Data Science Ethusiast with a deep interest in exploring data and machine learning. My academic journey has been filled with exploration and learning.</p>
+            <p>Throughout my academic career, I have developed a strong foundation in Data Science and Analytics and honed my skills in Python Programming, data analysis, machine learning algorithms and data visualization.</p>
+            <p>I am constantly seeking opportunities to further expand my knowledge and expertise.</p>
+            <p>I believe that data has the power to drive meaningful change and innovation. My commitment is to continue learning and applying data science techniques to solve real-world problems. My goal is to contribute to projects that make a positive impact on society through data-driven insights.</p>
+            <p>I'm excited to connect, collaborate, and share my experiences with you. Feel free to explore my portfolio and get in touch if you'd like to chat or collaborate on a project.</p>
+
+        </section>
+
+        <section>
+            <h2 id="Resume">Resume</h2>
+
+            <h3>Education:</h3>
+            
+            <p>University of Engineering and Technology, Peshawar<br>
+            <b>Bachelor of Science in Data Science</b></p>
+            <p>Punjab Group of Colleges Nowshera, 2021<br>
+            <b>ICS</b></p>
+            <p>Sher Shah Suri School Mardan, 2019<br>
+            <b>Science</b></p>
+
+            <h3>Professional Experience:</h3>
+            <ul>
+                <li>Data Science intern at EY </li>
+                <li>Worked on a team to analyze and visualize customer behavior</li>
+                <li>Implented machine learning model for predictive maintenance</li>
+            </ul>
+
+            <h3>Technical Skills:</h3>
+            <ul>
+                <li>Programming Languages: Python, C++</li>
+                <li>Data Analysis: NumPy, Pandas</li>
+                <li>Machine Learning: Scikit-Learn, TensorFlow</li>
+                <li>Data Visualization: Matplotlib, Seaborn, Power BI</li>
+                <li>Data Management: MYSQL</li>
+            </ul>
+
+            <h3>Projects:</h3>
+            <ul>
+                <li><b>Fake News Detection using Machine Learning</b>
+                <p>The main objective is to detect fake news.It is needed to build a model that can differentiate between fake and real news.</p>
+                </li>
+                
+                <li><b>Heart Disease Prediction using Machine Learning</b>
+                    <p>In this project, we create a model to do the accurate prediction of heart disease problems in health care applications. Easier to analyse the scalable of health care big data. Less time consumption with the efficiency of data in heart disease. High performance in data maintained of heart disease prediction.</p>
+                </li>
+                
+            </ul>
+
+            <h3>Resume in PDF Format:</h3>
+            <a href="Resume.pdf" download>Download Resume (PDF)</a>
+        </section>
+
+        <section>
+            <h2 id="Portfolio">Portfolio</h2>
+            <h3>Project 1:Health Data Analysis for Disease Prediction</h3>
+            <p><b>Project Title:</b>Health Guard</p>
+            <p><b>Project Description:</b>Analyzed health data to predict the risk of chronic diseases (e.g., diabetes, heart disease) in individuals.</p>
+            <p><b>Details:</b>Utilized data preprocessing, feature engineering, and machine learning techniques (e.g., logistic regression). Achieved an accuracy of 88% in disease prediction. Visualizations include feature importance plots.</p>
+            <p><b>Visual Element:</b></p>
+             <p><img src="project1.png" alt="Description" width="400" height="300"></p>
+
+             <h3>Project 2:Sales Forecasting for Retail</h3>
+             <p><b>Project Title:</b>SalesForecast</p>
+             <p><b>Project Discription:</b> Created a time series forecasting model to predict sales for a retail chain, optimizing inventory management.</p>
+             <p><b>Details:</b>Employed Python, and historical sales data. Improved inventory turnover by 15% and reduced stockouts. Visualizations include sales forecasts and historical sales trends.</p>
+             <p><b>Visual Element:</b></p>
+             <p><img src="project2.png" alt="Description" width="400" height="300"></p>
+
+        </section>
+
+        <section>
+            <h2 id="Contact">Contact</h2>
+            <form action="/Submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required><br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" cols="30"></textarea>
+
+                <button type="submit">Send</button>
+
+            </form>
+
+            <h3>Contact Information</h3>
+            <p><b>Email:</b><br><img src="logo.png" alt="Description" width="30" height="20"> ayeshajamil10502@gmail.com</p>
+            <p><b>LinkedIn:</b><br><img src="icon.png" alt="Description" width="30" height="30"><a href=" https://www.linkedin.com/in/ayesha-jamil-1b55ba242"> LinkedIn </a></p>
+        </section>
+
+
+    </body>
+</html>
